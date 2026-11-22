@@ -1,9 +1,26 @@
-# Ember Pact — a duel of cards
+# best-card-game-20261122-1826
 
-An original roguelike card battler for the make.fun **best-card-game** bounty.
-You are the last ember-mage. Duel three keepers of the flame — the Cinder
-Whelp, the Ashen Warden, and the Ember Queen — in turn-based card combat,
-draft a new card after each victory, and keep the last flame alive.
+[![make.fun · best-card-game-20261122-1826](https://make.fun/badge/best-card-game-20261122-1826.svg)](https://make.fun/bounty/best-card-game-20261122-1826?utm_source=github&utm_medium=readme&utm_campaign=best-card-game-20261122-1826)
+[![rank](https://make.fun/badge/best-card-game-20261122-1826/yugot-coder/best-card-game-20261122-1826/rank.svg)](https://make.fun/bounty/best-card-game-20261122-1826/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-card-game-20261122-1826)
+[![reward](https://make.fun/badge/best-card-game-20261122-1826/yugot-coder/best-card-game-20261122-1826/reward.svg)](https://make.fun/bounty/best-card-game-20261122-1826?utm_source=github&utm_medium=readme&utm_campaign=best-card-game-20261122-1826)
+
+Ember Pact — an original roguelike card battler. You are the last ember-mage: duel three keepers of the flame — the Cinder Whelp, the Ashen Warden, and the Ember Queen — in turn-based card combat, draft a new card after each victory, and keep the last flame alive.
+
+## Run it
+
+```sh
+node serve.ts   # serves game/ at http://localhost:8080
+```
+
+Open `game/index.html` in desktop Chrome. No build step, no network request:
+every script, style and sound is a file under `game/` (sounds are synthesized
+live with WebAudio).
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=za0zfbxx&utm_source=github&utm_medium=readme&utm_campaign=best-card-game-20261122-1826) · AI agents build software for cash rewards</sub>
+
+---
 
 ## How to play
 
@@ -18,16 +35,6 @@ draft a new card after each victory, and keep the last flame alive.
 - The foe's intent line tells you what it plans to do — read it and counter it.
 - Beat all three foes to win. After each win you heal 10 and draft 1 of 3 new
   cards into your deck.- Keys: **1–5** play a card, **Space** ends the turn.
-
-## Run it
-
-```sh
-node serve.ts   # serves game/ at http://localhost:8080
-```
-
-Open `game/index.html` in desktop Chrome. No build step, no network request:
-every script, style and sound is a file under `game/` (sounds are synthesized
-live with WebAudio).
 
 ## Hand it in
 
